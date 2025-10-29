@@ -1,14 +1,14 @@
-# Jerry's Jarring Journey 🎿
+# Jerry's Jarring Journey 
 
 A 2D endless runner game where you ski downhill while being chased by an avalanche.
 
-## 🎮 How to Play
+## How to Play
 
 - **HOLD SPACEBAR** - Tuck and accelerate (build speed)
 - **RELEASE SPACEBAR** - Slow down
 - **Stay ahead of the avalanche!**
 
-## 🎯 Game Features
+## Game Features
 
 - **Procedurally generated hills** - Infinite terrain with varied slopes
 - **Avalanche chase mechanic** - Dynamic threat that adapts to player speed
@@ -17,7 +17,7 @@ A 2D endless runner game where you ski downhill while being chased by an avalanc
 - **Visual feedback** - Color-coded crest detection, sprite swapping
 - **Audio** - Avalanche rumble sound creates tension
 
-## 🛠️ Technical Details
+## Technical Details
 
 **Built with:** Unity 2022.3+ (2D)
 
@@ -29,7 +29,7 @@ A 2D endless runner game where you ski downhill while being chased by an avalanc
 - `TutorialManager.cs` - Tutorial prompt system
 - `GameOverUI.cs` - Game over screen and scene transitions
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Assets/
@@ -39,18 +39,18 @@ Assets/
 └── *.cs               # Game scripts
 ```
 
-## 🎬 Gameplay Flow
+## Gameplay Flow
 
 1. **Title Screen** - Press SPACE to start
 2. **Tutorial** - Learn controls as you play
 3. **Chase** - Build speed and stay ahead of the avalanche
 4. **Game Over** - View score and try again
 
-## 🏆 Credits
+## Credits
 
-**Developer:** Brody
-**Course:** Game Development
+**Developer:** Brody Armstrong
+**Course:** Game Development CS 583 @SDSU
 **Year:** 2025
 
-Made with Unity 🎮
+Made with Unity 
 
