@@ -7,12 +7,6 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
-# Never ignore Asset meta data
-![Aa]ssets/**/*.meta
-
-# Uncomment this line if you wish to ignore the asset store tools plugin
-# [Aa]ssets/AssetStoreTools*
-
 # Visual Studio cache directory
 .vs/
 
@@ -54,13 +48,30 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-# Packed Addressables
-[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
-
-# Temporary auto-generated Android Assets
-[Aa]ssets/[Ss]treamingAssets/aa.meta
-[Aa]ssets/[Ss]treamingAssets/aa/*
-
 # macOS
 .DS_Store
+
+# ==================================
+# SCRIPTS ONLY - Ignore everything except C# files
+# ==================================
+
+# Ignore all Unity assets, prefabs, scenes, etc.
+Assets/**/*
+
+# But keep all C# scripts
+!Assets/**/*.cs
+
+# Ignore all meta files
+*.meta
+
+# Ignore Unity project files
+ProjectSettings/
+Packages/
+
+# Ignore all images and other assets in root
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp3
 
